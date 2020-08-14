@@ -10,6 +10,7 @@ t = []
 for i in range(MAX):
     t.append(random.randint(0,MAX))
 
+print('[*] MAX : '+str(MAX))
 li.append(t)
 print('[+] random list created')
 q = copy.deepcopy(t)
