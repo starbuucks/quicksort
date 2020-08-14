@@ -26,7 +26,7 @@ def quicksort(A):
             li1.append(i)
         elif i < p2:
             li2.append(i)
-        elif:
+        else:
             li3.append(i)
 
     if len(li1) > 1:
