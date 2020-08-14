@@ -24,9 +24,9 @@ def quicksort(A):
     for i in A[2:]:
         if i < p1:
             li1.append(i)
-        else if i < p2:
+        elif i < p2:
             li2.append(i)
-        else:
+        elif:
             li3.append(i)
 
     if len(li1) > 1:
